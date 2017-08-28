@@ -35,7 +35,7 @@ VOLUME ["/orientdb/backup", "/orientdb/databases", "/orientdb/config"]
 
 WORKDIR /orientdb
 
-COPY data/docker/orientdb-server-config.xml /orientdb/config/orientdb-server-config.xml
+COPY ./orientdb-server-config.xml /orientdb/config/orientdb-server-config.xml
 
 #OrientDb binary
 EXPOSE 2424
