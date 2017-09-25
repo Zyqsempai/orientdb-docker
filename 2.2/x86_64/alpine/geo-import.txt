@@ -1,4 +1,4 @@
 CONNECT remote:database/B2B root root;
-IMPORT DATABASE /var/www/site/data/import/B2B_GEO.gz;
+IMPORT DATABASE /orientdb/B2B_GEO.gz;
 DISCONNECT;
 exit;
