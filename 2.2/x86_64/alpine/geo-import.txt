@@ -1,4 +1,4 @@
-CONNECT remote:127.0.0.1/B2B_DEV root root;
+CONNECT plocal:/orientdb/databases/B2B_DEV root root;
 IMPORT DATABASE /orientdb/B2B_GEO.gz;
 DISCONNECT;
 exit;
