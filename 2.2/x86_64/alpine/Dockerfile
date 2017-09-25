@@ -46,5 +46,5 @@ EXPOSE 2424
 EXPOSE 2480
 
 # Default command start the server
-CMD ["server.sh"]
+CMD server.sh
 
