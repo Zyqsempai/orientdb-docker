@@ -39,8 +39,6 @@ COPY ./orientdb-server-config.xml /orientdb/config/orientdb-server-config.xml
 COPY ./geo-import.txt /orientdb/geo-import.txt
 COPY ./B2B_GEO.gz /orientdb/B2B_GEO.gz
 
-RUN console.sh /orientdb/geo-import.txt
-
 #OrientDb binary
 EXPOSE 2424
 
