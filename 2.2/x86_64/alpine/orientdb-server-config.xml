@@ -79,7 +79,7 @@
     </network>
     <storages>
     <!-- our testing database -->
-        <storage name="B2B" path="plocal:/orientdb/databases/B2B"
+        <storage name="B2B_DEV" path="plocal:/orientdb/databases/B2B_DEV"
              userName="root" userPassword="root"
              loaded-at-startup="true" />
     </storages>
